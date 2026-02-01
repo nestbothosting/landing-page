@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - NestBot</title>
+    <meta name="description" content="Get help with NestBot. Contact our support team via email or Discord.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <style>
+        .support-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 60px;
+            max-width: 800px;
+            margin: 120px auto 60px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .contact-list {
+            margin: 40px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            background: rgba(255, 255, 255, 0.03);
+            padding: 20px 40px;
+            border-radius: 12px;
+            width: 100%;
+            max-width: 500px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .contact-item:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateX(5px);
+            color: var(--text-main);
+        }
+
+        .contact-icon {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+        <div class="globe globe-3"></div>
+    </div>
+
+    <header class="glass-header">
+        <nav class="container">
+            <div class="logo">Nest<span>Bot</span></div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="support-card">
+            <h1 class="section-title">Contact <span class="gradient-text">Support</span></h1>
+            <p style="font-size: 1.2rem; color: var(--text-muted); margin-bottom: 30px;">
+                If you need help with NestBot, you can contact us via:
+            </p>
+
+            <div class="contact-list">
+                <a href="mailto:support@nestbot.xyz" class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <span>support@nestbot.xyz</span>
+                </a>
+                <a href="https://discord.gg/259nu9xdSm" class="contact-item">
+                    <span class="contact-icon">💬</span>
+                    <span>Join our Discord server</span>
+                </a>
+            </div>
+
+            <p style="color: var(--text-muted); margin-top: 40px;">
+                We typically respond within 24 hours. Thank you for using NestBot!
+            </p>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Panel</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="https://tmbuilder.nestbot.xyz" target="_blank">Telegram Bot Builder</a></li>
+                        <li><a href="https://dcbuider.nestbot.xyz" target="_blank">Discord Bot Builder</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Community</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="#">Discord</a></li>
+                        <li><a href="support.html">Support</a></li>
+                        <li><a href="terms.html">Terms</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Social Media</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="#">Discord</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-logo">Nest<span>Bot</span> &copy; 2026</div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
